@@ -2,8 +2,7 @@ const CACHE_NAME = "meu-pwa-cache-v1";
 const FILES_TO_CACHE = [
   "index.html",
   "manifest.json",
-  "icons/icon-192.png",
-  "icons/icon-512.png"
+  "icons/icon.png"
 ];
 
 self.addEventListener("install", (event) => {
@@ -27,7 +26,7 @@ self.addEventListener("activate", (event) => {
       }))
     )
   );
-  
+
   self.clients.claim();
 });
 
