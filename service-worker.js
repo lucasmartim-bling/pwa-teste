@@ -1,4 +1,4 @@
-const CACHE_NAME = "meu-pwa-cache-v1";
+const CACHE_NAME = "pwa-teste-v1";
 const FILES_TO_CACHE = [
   "index.html",
   "manifest.json",
